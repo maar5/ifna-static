@@ -168,3 +168,18 @@ img {
     padding: 2rem;
 }
 
+.contact-btn{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'DM Sans',sans-serif;
+    /* letter-spacing: 5px; */
+    border-radius: 5px;
+}
+
+.contact-btn:hover{
+    color: white;
+    background-color: transparent;
+}
