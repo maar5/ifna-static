@@ -107,3 +107,18 @@ padding: 2px 16px;
 .benefits-desc{
     text-align: center;
 }
+
+.logo-panel {
+  padding: 2rem;
+  background-color: #fbf9fc;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.panel-gradient {
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #3cbac5;
+  background: linear-gradient(42.86deg, #3cbac5 0, #64eac5 100%);
+  color: #fff;
+}
