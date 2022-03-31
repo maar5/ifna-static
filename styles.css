@@ -63,18 +63,6 @@
 }
 
 
-/* CARD FOR SCREENSHOTS */
-.screen-shot-card {
-/* Add shadows to create the "card" effect */
-/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-transition: 0.3s; */
-}
-
-/* On mouse-over, add a deeper shadow */
-.screen-shot-card:hover {
-/* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
-}
-
 /* Add some padding inside the card container */
 .screen-shot-desc {
 padding: 2px 16px;
@@ -100,6 +88,12 @@ padding: 2px 16px;
     max-width: 1100px;
 }
 
+.display-width-container-sm{
+    margin: auto;
+    padding: 0 1rem;
+    max-width: 700px;
+}
+
 .icon-container{
     width: 100px;
     margin: 15px auto;
@@ -119,11 +113,18 @@ padding: 2px 16px;
   text-align: center;
 }
 
+.org-panel {
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
 .panel-gradient {
   padding: 2rem;
   border-radius: 1rem;
-  background-color: #3cbac5;
-  background: linear-gradient(42.86deg, #3cbac5 0, #64eac5 100%);
+  background-color: #3c8ec5;
+  background: linear-gradient(42.86deg,#3c8ec5 0,#64b9ea 100%);
   color: #fff;
 }
 
@@ -159,8 +160,8 @@ img {
 } */
 
 .contact-footer-panel {
-    background-color: #3cbac5;
-    background: linear-gradient(42.86deg,#3cbac5 0,#64eac5 100%);
+    background-color: #3c8ec5;
+    background: linear-gradient(42.86deg,#3c8ec5 0,#64b9ea 100%);
     color: #fff;
 }
 
@@ -182,4 +183,12 @@ img {
 .contact-btn:hover{
     color: white;
     background-color: transparent;
+}
+
+.org-logo-frame {
+    max-width: 500px;
+    margin: 15px auto;
+    background-color: #dddddd7a;
+    border-radius: 5px;
+    padding: 20px;
 }
