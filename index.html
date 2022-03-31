@@ -224,17 +224,17 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare bibendum aliquet.</p>
         </div>
         <div class="col-12">
-          <!-- <form enctype="multipart/form-data" action="https://www.actionforms.io/e/r/gord-bond-test" method="post">
+          <form enctype="multipart/form-data" action="https://formsubmit.co/gordbondartist@gmail.com" method="post">
             <input type="hidden" name="csrfmiddlewaretoken" value="tEqvWuLNspPXfvwdhj90xUhxiqCjABR61aInQsTGBvn60viMc7xWoGN3N32UQmhI">
             <div class="row">
               <div class="col-12 col-sm-8 col-md-5">
                 <div class="form-group">
                   <label for="name">Your name</label>
-                  <input class="form-control" type="name" name="name" id="name"  placeholder="Name" maxlength="200">
+                  <input class="form-control" type="name" name="name" id="name"  placeholder="Name" maxlength="200" required>
                 </div>
                 <div class="form-group">
-                  <label for="alt_email">Your work email address</label>
-                  <input type="email" class="form-control" id="alt_email" name="alt_email" aria-describedby="emailHelp"  placeholder="Email" required>
+                  <label for="alt_email">Your email address</label>
+                  <input type="email" class="form-control" id="alt_email" name="email" aria-describedby="emailHelp"  placeholder="Email" required>
                 </div>
                 <div class="form-group">
                   <label for="phone">Your phone number (optional)</label>
@@ -243,24 +243,33 @@
               </div>
               <div class="col-12 col-sm-8 col-md-6 offset-md-1">
                 <div class="form-group">
-                  <label for="notes">Anything else?</label>
-                  <textarea class="form-control" id="notes" rows="3" placeholder="Tell us more about your project"  name="notes" ></textarea>
+                  <label for="notes">Message</label>
+                  <textarea class="form-control" id="notes" rows="3" placeholder="Write your message here."  name="message" ></textarea>
                 </div>
-                <div class="abf-input-label-hidden">
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="hidden" name="_next" value="https://epic-ideaworks.github.io/ifna-static/index.html">
+                <input type="hidden" name="_template" value="table">
+                <!-- <div class="abf-input-label-hidden">
                   <label class="abf-input-label-hidden" for="email">Anti-Spam Decoy - Do not use if you are a real person</label>
                   <div class="col-md-8">
                     <input class="contact-form-input" placeholder="Email address" type="email" name="email" maxlength="75" />
                   </div>
-                </div>
+                </div> -->
+                <br/>
                 <button type="submit" name="create_account_button" class="btn btn-secondary">Send message <i class="fas fa-chevron-right"></i></button>
               </div>
             </div>
-          </form> -->
-          <form action="https://formsubmit.co/gordbondartist@gmail.com" method="POST">
-            <input type="text" name="name" required>
-            <input type="email" name="email" required>
+          </form>
+          <!-- <form action="https://formsubmit.co/gordbondartist@gmail.com" method="POST">
+            <input type="text" name="first_name" required>
+            <input type="text" name="last_name" required>
+            <input type="email" name="email" palceholder="Email Address" required>
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="hidden" name="_next" value="https://epic-ideaworks.github.io/ifna-static/index.html">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="message" placeholder="Write your message here." required>
             <button type="submit">Send</button>
-       </form>
+       </form> -->
           
         </div>
       </div>
