@@ -35,6 +35,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    
+  }
+
+  .hero-text h1{
+    font-size:4rem;
   }
   
   .hero-text button {
@@ -191,4 +196,9 @@ img {
     background-color: #dddddd7a;
     border-radius: 5px;
     padding: 20px;
+}
+
+.vid{
+    width: 100%;
+    height: 315px;
 }
